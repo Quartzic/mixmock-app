@@ -60,7 +60,7 @@ export const JobsList = ({ jobs }) => {
                               return "Unknown";
                           }
                         })()}
-                        , <TimeAgo date={jobItem.data().createdAt.toDate()} />
+                        , <TimeAgo date={jobItem.data().updatedAt.toDate()} />
                       </div>
                     </div>
                   </div>
